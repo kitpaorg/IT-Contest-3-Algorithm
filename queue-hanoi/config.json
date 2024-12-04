@@ -1,0 +1,490 @@
+{
+    "problem_title": "하노이의 큐",
+    "problem_type": "stdio",
+    "checker": "chkr.cpp",
+    "checker_language": "cpp17",
+    "validator": "vald.cpp",
+    "validator_language": "cpp17",
+    "subtask": true,
+    "limits": {
+        "time": 3000,
+        "memory": 1073741824,
+        "factor": {}
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "problem.md",
+            "label": "한국어"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "asdfsdf_ac.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "mcs.cpp",
+            "language": "cpp17",
+            "type": "MCS"
+        },
+        {
+            "name": "qwer.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "radix_sort.cpp",
+            "language": "cpp17",
+            "type": "WA"
+        },
+        {
+            "name": "subtask1.cpp",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "validator_group1.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "validator_group2.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "validator_group3.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        }
+    ],
+    "generators": [
+        {
+            "name": "__pps_generator.py",
+            "language": "py3",
+            "alias": "__pps_generator"
+        },
+        {
+            "name": "gen_enum.cpp",
+            "language": "cpp17",
+            "alias": "gen_enum"
+        },
+        {
+            "name": "gen_kill.cpp",
+            "language": "cpp17",
+            "alias": "gen_kill"
+        },
+        {
+            "name": "gen_kill2.cpp",
+            "language": "cpp17",
+            "alias": "gen_kill2"
+        },
+        {
+            "name": "gen_killrand.cpp",
+            "language": "cpp17",
+            "alias": "gen_killrand"
+        },
+        {
+            "name": "gen_killrr.cpp",
+            "language": "cpp17",
+            "alias": "gen_killrr"
+        },
+        {
+            "name": "gen_rand.cpp",
+            "language": "cpp17",
+            "alias": "gen_rand"
+        },
+        {
+            "name": "gen_randa.cpp",
+            "language": "cpp17",
+            "alias": "gen_randa"
+        },
+        {
+            "name": "gen_randh.cpp",
+            "language": "cpp17",
+            "alias": "gen_randh"
+        },
+        {
+            "name": "gen_randn.cpp",
+            "language": "cpp17",
+            "alias": "gen_randn"
+        },
+        {
+            "name": "gen_randnh.cpp",
+            "language": "cpp17",
+            "alias": "gen_randnh"
+        }
+    ],
+    "subtask_group": [
+        {
+            "name": "1",
+            "description": "",
+            "score": 37,
+            "dependencies": []
+        },
+        {
+            "name": "2",
+            "description": "",
+            "score": 41,
+            "dependencies": []
+        },
+        {
+            "name": "3",
+            "description": "",
+            "score": 22,
+            "dependencies": []
+        }
+    ],
+    "genscript": [
+        {
+            "script": "__pps_generator 0",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_enum 2 2",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_enum 4 4",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 8 625",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 16 300",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 32 150",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 64 70",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 128 30",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 256 16",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 512 8",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randa 1024 4",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 64 780",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 128 350",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 256 120",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 512 60",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 1024 40",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 2048 20",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 4096 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 8192 5",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 16384 2",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randn 32768 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 1000 50000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 500 50000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 100 50000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 50 50000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 10 50000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_kill 32768 1",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_kill2 32768 1",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrand 200 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrr 200 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrand 50 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrr 50 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrand 20 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_killrr 20 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 64 780",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 128 350",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 256 120",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 512 60",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 1024 40",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 2048 20",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 4096 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 8192 5",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 16384 2",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randnh 32768 1",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 1000 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 500 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 100 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 50 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 10 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    },
+    "deploy_uuid": "9dfa3a48-8ebe-4ed6-a5a6-9242e91a102f"
+}
