@@ -1,0 +1,522 @@
+{
+    "problem_title": "괄호 문자열 편집기",
+    "problem_type": "stdio",
+    "checker": "ncmp.cpp",
+    "checker_language": "cpp17",
+    "validator": "vald.cpp",
+    "validator_language": "cpp17",
+    "subtask": true,
+    "limits": {
+        "time": 3000,
+        "memory": 1073741824,
+        "factor": {}
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "problem.md",
+            "label": "한국어"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "asdfsdf_ac.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "asdfsdf_ac_heavy.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "emulate_log.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "mcs.cpp",
+            "language": "cpp17",
+            "type": "MCS"
+        },
+        {
+            "name": "sol_py_hjroh.py",
+            "language": "pypy3",
+            "type": "AC"
+        },
+        {
+            "name": "qwer.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        }
+    ],
+    "generators": [
+        {
+            "name": "__pps_generator.py",
+            "language": "py3",
+            "alias": "__pps_generator"
+        },
+        {
+            "name": "gen_add.cpp",
+            "language": "cpp17",
+            "alias": "gen_add"
+        },
+        {
+            "name": "gen_add2.cpp",
+            "language": "cpp17",
+            "alias": "gen_add2"
+        },
+        {
+            "name": "gen_move.cpp",
+            "language": "cpp17",
+            "alias": "gen_move"
+        },
+        {
+            "name": "gen_rand.cpp",
+            "language": "cpp17",
+            "alias": "gen_rand"
+        },
+        {
+            "name": "gen_rinse.cpp",
+            "language": "cpp17",
+            "alias": "gen_rinse"
+        },
+        {
+            "name": "gen_rinserem.cpp",
+            "language": "cpp17",
+            "alias": "gen_rinserem"
+        }
+    ],
+    "subtask_group": [
+        {
+            "name": "1",
+            "description": "",
+            "score": 7,
+            "dependencies": []
+        },
+        {
+            "name": "2",
+            "description": "",
+            "score": 9,
+            "dependencies": [
+                "1"
+            ]
+        },
+        {
+            "name": "3",
+            "description": "",
+            "score": 19,
+            "dependencies": [
+                "2"
+            ]
+        },
+        {
+            "name": "4",
+            "description": "",
+            "score": 23,
+            "dependencies": [
+                "3"
+            ]
+        },
+        {
+            "name": "5",
+            "description": "",
+            "score": 42,
+            "dependencies": [
+                "4"
+            ]
+        }
+    ],
+    "genscript": [
+        {
+            "script": "__pps_generator 0",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 300",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add 300",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add2 300",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_move 300",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 1",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 2000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 300",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 400",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 600",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 700",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 2000 800",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 2000 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 2000 600",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 2000 700",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add 2000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add2 2000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_move 2000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add 80000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add2 80000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 80000 10000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 80000 20000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 80000 30000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 80000 10000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 80000 20000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 80000 30000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 80000 35000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_move 80000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 200000 50000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 200000 60000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 200000 80000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 200000 50000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 200000 60000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 200000 80000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_move 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add2 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 10000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_move 10000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add 10000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_add2 10000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 200000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 500000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 1000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 2000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 3000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 4000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinse 10000000 5000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 10000000 1000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 10000000 2000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 10000000 3000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 10000000 4000000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rinserem 10000000 4500000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    },
+    "deploy_uuid": "edde85fa-b366-4d67-9cf7-b7d3e7a8ddb3"
+}

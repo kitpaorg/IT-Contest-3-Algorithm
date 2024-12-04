@@ -1,0 +1,822 @@
+{
+    "problem_title": "맛있는 사과",
+    "problem_type": "stdio",
+    "checker": "lcmp.cpp",
+    "checker_language": "cpp17",
+    "validator": "validator.cpp",
+    "validator_language": "cpp17",
+    "subtask": true,
+    "limits": {
+        "time": 2000,
+        "memory": 1073741824,
+        "factor": {}
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "problem.md",
+            "label": "한국어"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "ai4youej-st1.py",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "ai4youej-st2.py",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "ai4youej-wa.py",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "kiwiyou-ac.cpp",
+            "language": "cpp17",
+            "type": "MCS"
+        },
+        {
+            "name": "kiwiyou-st1.cpp",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "kiwiyou-st2.cpp",
+            "language": "",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "kiwiyou-st3.cpp",
+            "language": "",
+            "type": "AC/WA/TLE"
+        },
+        {
+            "name": "qwer.cpp",
+            "language": "",
+            "type": "AC"
+        },
+        {
+            "name": "test.py",
+            "language": "py3",
+            "type": "AC"
+        }
+    ],
+    "generators": [
+        {
+            "name": "__pps_generator.py",
+            "language": "py3",
+            "alias": "__pps_generator"
+        },
+        {
+            "name": "uniform-dupe-dec.cpp",
+            "language": "cpp17",
+            "alias": "uniform-dupe-dec"
+        },
+        {
+            "name": "uniform-dupe-inc.cpp",
+            "language": "cpp17",
+            "alias": "uniform-dupe-inc"
+        }
+    ],
+    "subtask_group": [
+        {
+            "name": "1",
+            "description": "",
+            "score": 5,
+            "dependencies": []
+        },
+        {
+            "name": "2",
+            "description": "",
+            "score": 15,
+            "dependencies": []
+        },
+        {
+            "name": "3",
+            "description": "",
+            "score": 30,
+            "dependencies": []
+        },
+        {
+            "name": "4",
+            "description": "",
+            "score": 50,
+            "dependencies": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    ],
+    "genscript": [
+        {
+            "script": "__pps_generator 0",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1 -smax 1",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 1000000000 -smin 1000000000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1 -smin 1000000000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 1000000000 -smax 1",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1 -smax 10",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1 -smax 100000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 1 -smax 200000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 1 -Q 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1 -smax 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmin 1000000000 -smin 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1 -smin 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmin 1000000000 -smax 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -smax 1 -tmax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -smax 1 -tmax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -smax 1",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 10 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 10 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 10 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 10 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 10 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 10 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 250 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 250 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 250 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 250 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 250 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 250 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 250 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 250 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 500 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 500 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 500 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 500 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 500 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 500 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 500 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 500 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1000000000 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 1000000000 -smax 10",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1000000000 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 1000000000 -smax 250",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1000000000 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 1000000000 -smax 500",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 500 -Q 200000 -tmax 1000000000 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 500 -Q 200000 -tmax 1000000000 -smax 1000000000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -smax 1 -tmax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -smax 1 -tmax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -smax 1 -tmax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 10 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 10 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 10 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 10 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 10 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 10 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 10 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 10 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 100000 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 100000 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 100000 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 100000 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 100000 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 100000 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 100000 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 100000 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 200000 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 200000 -smax 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 200000 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 200000 -smax 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 200000 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 200000 -smax 200000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmax 200000 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmax 200000 -smax 1000000000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -smax 1",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999999990 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999999990 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999999990 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999999990 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999999990 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999999990 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999900000 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999900000 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999900000 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999900000 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999900000 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999900000 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999800000 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999800000 -smin 999999990",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999800000 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999800000 -smin 999900000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-inc -N 200000 -Q 200000 -tmin 999800000 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "uniform-dupe-dec -N 200000 -Q 200000 -tmin 999800000 -smin 999800000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    },
+    "deploy_uuid": "8f247d2b-a575-4178-b47b-0c03c310e554"
+}

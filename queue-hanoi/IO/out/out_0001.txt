@@ -1,0 +1,4 @@
+3
+AB BC AC
+2
+AB BA
