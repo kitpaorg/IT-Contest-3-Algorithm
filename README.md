@@ -35,7 +35,7 @@
 * 제한: TL 2초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/validator.cpp`
 * 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## B (초등부 2번, 고등부 1번)
@@ -45,7 +45,7 @@
 * 제한: TL 1초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/validator.cpp`
 * 체커: `./checker/yesno.cpp` (Polygon 기준 std::yesno)
 
 ## C (초등부 3번, 고등부 2번)
@@ -55,7 +55,7 @@
 * 제한: TL 5초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/validator.cpp`
 * 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## D (중등부 2번)
@@ -65,7 +65,7 @@
 * 제한: TL 3초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/vald.cpp`
 * 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## E (중등부 3번, 고등부 3번)
@@ -75,7 +75,7 @@
 * 제한: TL 4초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/validator.cpp`
 * 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## F (고등부 4번)
@@ -85,5 +85,5 @@
 * 제한: TL 3초, ML 1024MB
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
-* 밸리데이터: `./validator/validator.cc`
+* 밸리데이터: `./validator/vald.cpp`
 * 체커: `./checker/chkr.cpp`
