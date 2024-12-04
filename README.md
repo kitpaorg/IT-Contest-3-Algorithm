@@ -13,6 +13,10 @@
 * 이 스크립트의 순서는 실제 데이터 (폴더 `IO`)의 순서와 동일합니다.
 * 각 문제의 config.json에서 "subtask_group" 속성은 각 서브태스크 그룹의 이름과 위계적으로 종속되는 그룹의 이름을 포함하는 리스트입니다.
 
+## 체커 셋팅
+
+* 명시되지 않은 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
+
 ## 예비소집 1번
 
 * 제2회 청소년 IT경시대회 초1, 중1 문제와 동일
@@ -20,29 +24,30 @@
 ## 예비소집 2번
 
 * 제목: `학술대회 참가신청`
-* 출제: `martinok1103`
-* 폴더: `kitpa-conference`
-* 제한: TL 1초, ML 1024MB
+* 시간제한: `1초`
+* 메모리제한: `1024MB`
+* 출제자: [`martinok1103`](https://www.acmicpc.net/user/martinok1103)
+* 경로: `pb_kitpa-conference`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cc`
-* 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 wcmp)
 
 ## A (초등부 1번, 중등부 1번)
 * 제목: `맛있는 사과`
-* 출제: `kiwiyou`
-* 폴더: `tasty-apple`
-* 제한: TL 2초, ML 1024MB
+* 시간제한:`2초`
+* 메모리제한: `1024MB`
+* 출제자: [`kiwiyou`](https://www.acmicpc.net/user/kiwiyou)
+* 경로: `a_tasty-apple`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
-* 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## B (초등부 2번, 고등부 1번)
 * 제목: `재미있는 파이프 퍼즐`
-* 출제: `ai4youej`
-* 폴더: `connect-pipe`
-* 제한: TL 1초, ML 1024MB
+* 시간제한: `1초`
+* 메모리제한: `1024MB`
+* 출제자: [`ai4youej`](https://www.acmicpc.net/user/ai4youej)
+* 경로: `b_connect-pipe`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
@@ -50,39 +55,40 @@
 
 ## C (초등부 3번, 고등부 2번)
 * 제목: `집합 연산`
-* 출제: `flappybird`
-* 폴더: `set-operations`
-* 제한: TL 5초, ML 1024MB
+* 시간제한: `5초`
+* 메모리제한: `1024MB`
+* 출제자: [`flappybird`](https://www.acmicpc.net/user/flappybird)
+* 경로: `c_set-operations`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
-* 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## D (중등부 2번)
 * 제목: `괄호 문자열 편집기`
-* 출제: `hjroh0315`
-* 폴더: `rbs-query`
-* 제한: TL 3초, ML 1024MB
+* 시간제한: `3초`
+* 메모리제한: `1024MB`
+* 출제자: [`hjroh0315`](https://www.acmicpc.net/user/hjroh0315)
+* 경로: `d_rbs-query`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/vald.cpp`
-* 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## E (중등부 3번, 고등부 3번)
 * 제목: `스파이`
-* 출제: `flappybird`
-* 폴더: `spies`
-* 제한: TL 4초, ML 1024MB
+* 시간제한: `4초`
+* 메모리제한: `1024MB`
+* 출제자: [`flappybird`](https://www.acmicpc.net/user/flappybird)
+* 경로: `e_spies`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
-* 체커는 스탠더드 체커를 그대로 사용합니다. (Polygon 기준 ncmp)
 
 ## F (고등부 4번)
 * 제목: `하노이의 큐`
-* 출제: `hjroh0315`
-* 폴더: `queue-hanoi`
-* 제한: TL 3초, ML 1024MB
+* 시간제한: `3초`
+* 메모리제한: `1024MB`
+* 출제자: [`hjroh0315`](https://www.acmicpc.net/user/hjroh0315)
+* 경로: `f_queue-hanoi`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/vald.cpp`
